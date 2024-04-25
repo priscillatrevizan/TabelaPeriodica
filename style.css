@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #191919;
+}
+.hide {
+  visibility: hidden;
+}
+
+header {
+  margin: 0;
+  height: 100px;
+  background-image: url(lab.jpg);
+  background-position: 50% 50%;
+  min-width: 1280px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tb-periodica {
+  text-align: center;
+  width: 1200px;
+  height: 700px;
+  margin: 5px auto;
+}
+
+li {
+  overflow: hidden;
+  padding: 0px;
+  margin-top: 2px;
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease-in;
+}
+
+#H {
+  background-color: azure;
+  color: black;
+}
+
+.transição {
+  background-color: rgb(196, 45, 75);
+}
+.pós-transição {
+  background-color: rgb(5, 92, 63);
+}
+
+.desconhecidos {
+  background-color: #686767;
+}
+
+.alcalinoterrosos {
+  background-color: rgb(146, 73, 5);
+}
+
+.ametais {
+  background-color: rgb(5, 121, 15);
+}
+
+.semimetais {
+  background-color: rgb(167, 167, 6);
+}
+
+.gasesNobres {
+  background-color: rgb(72, 72, 255);
+}
+
+.lantanideos {
+  background-color: darkorchid;
+}
+
+.actinideos {
+  background-color: darkred;
+}
+
+.legendas {
+  column-count: 3;
+  column-gap: 5px;
+  text-align: left;
+  width: 1200px;
+  height: 220px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.legenda {
+  max-width: fit-content;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #ccc;
+  font-family: "Roboto", sans-serif;
+  break-inside: avoid;
+}
+
+li:hover {
+  transform: scale(1.4);
+  border: 1px solid rgb(223, 220, 220);
+  font-size: larger;
+}
+
+.hoz-vet :hover {
+  transition: none;
+  transform: none;
+  border: none;
+}
+
+li.hoz-vet:hover {
+  transition: none;
+  transform: none;
+  border: none;
+}
+
+li.estatico:hover {
+  transition: none;
+  transform: none;
+}
+
+.hoz-vet p {
+  margin: 0px;
+  padding: 0px;
+  text-align: auto;
+  font-size: 30px;
+  background-color: #ccc;
+  color: black;
+}
+
+.element p {
+  margin: 0px;
+  padding: 2px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.name {
+  right: 3px;
+  font-size: 8px;
+  margin-top: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.n {
+  right: 45px;
+  font-size: 7px;
+}
+
+.serie-periodica {
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: aquamarine;
+}
+
+footer h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
