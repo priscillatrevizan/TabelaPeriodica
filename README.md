@@ -14,6 +14,10 @@ Este é um projeto de uma tabela periódica interativa desenvolvida em HTML e CS
 2. Abra o arquivo `index.html` em um navegador da web.
 3. Explore a tabela periódica interativa clicando nos elementos para ver suas informações.
 
+## Visualização Online
+
+Este projeto pode ser visualizado online via [Vercel](https://tabela-periodica-zeta.vercel.app/).
+
 ## Estrutura do Projeto
 
 - `index.html`: Página principal que contém a estrutura da tabela periódica.
